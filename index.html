@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Blake Smith for Waterloo Ward 4</title>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f4f4f4;
     color: #222;
 }
-
 header {
     height: 100vh;
     background:
@@ -27,7 +22,6 @@ header {
         url("IMG_20260521_082858.jpg");
     background-size: cover;
     background-position: center;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,29 +29,24 @@ header {
     color: white;
     padding: 20px;
 }
-
 .hero {
     max-width: 850px;
 }
-
 .hero h1 {
     font-size: 4rem;
     margin-bottom: 10px;
 }
-
 .hero h2 {
     font-size: 1.5rem;
     font-weight: normal;
     margin-bottom: 35px;
 }
-
 .slogan {
     font-size: 2rem;
     line-height: 1.5;
     margin-bottom: 40px;
     font-weight: bold;
 }
-
 .button {
     background: #0d5cab;
     color: white;
@@ -69,11 +58,9 @@ header {
     font-weight: bold;
     transition: 0.3s;
 }
-
 .button:hover {
     background: #084785;
 }
-
 nav {
     position: sticky;
     top: 0;
@@ -83,20 +70,17 @@ nav {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     z-index: 1000;
 }
-
 nav a {
     margin: 0 18px;
     text-decoration: none;
     color: #0d5cab;
     font-weight: bold;
 }
-
 .container {
     max-width: 1100px;
     margin: auto;
     padding: 50px 20px;
 }
-
 .section {
     background: white;
     padding: 40px;
@@ -104,56 +88,47 @@ nav a {
     margin-bottom: 40px;
     box-shadow: 0 3px 12px rgba(0,0,0,0.08);
 }
-
 h2 {
     color: #0d5cab;
     margin-top: 0;
     font-size: 2rem;
 }
-
 .about-grid {
     display: grid;
     grid-template-columns: 350px 1fr;
     gap: 40px;
     align-items: center;
 }
-
 .about-grid img {
     width: 100%;
     border-radius: 12px;
 }
-
 .issue-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 25px;
     margin-top: 30px;
 }
-
 .issue {
     background: #f7f7f7;
     padding: 25px;
     border-left: 6px solid #0d5cab;
     border-radius: 8px;
 }
-
 .issue h3 {
     margin-top: 0;
 }
-
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
     margin-top: 25px;
 }
-
 .gallery img {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.12);
 }
-
 .quote {
     font-size: 1.3rem;
     line-height: 1.7;
@@ -163,7 +138,6 @@ h2 {
     border-radius: 10px;
     margin-top: 30px;
 }
-
 .video-container {
     position: relative;
     overflow: hidden;
@@ -171,7 +145,6 @@ h2 {
     padding-top: 56.25%;
     border-radius: 12px;
 }
-
 .video-container iframe {
     position: absolute;
     top: 0;
@@ -179,51 +152,60 @@ h2 {
     width: 100%;
     height: 100%;
 }
-
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 25px;
+}
+.social-buttons a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #0d5cab;
+    color: white;
+    padding: 14px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.social-buttons a:hover {
+    background: #084785;
+}
 footer {
     background: #0d5cab;
     color: white;
     text-align: center;
     padding: 30px;
 }
-
 @media(max-width: 850px) {
-
     .hero h1 {
         font-size: 2.8rem;
     }
-
     .about-grid {
         grid-template-columns: 1fr;
     }
-
 }
-
 </style>
 </head>
-
 <body>
 
 <header>
-
 <div class="hero">
-
 <h1>Blake Smith</h1>
-
 <h2>Candidate for Waterloo City Council — Ward 4</h2>
-
 <div class="slogan">
 Fix Roads.<br>
 Fix Taxes.<br>
 For the East Side.<br>
 For YOU.
 </div>
-
 <a class="button" href="#about">Learn More</a>
 <a class="button" href="#video">Watch him seek responsible spending</a>
-
+<a class="button" href="#follow">Follow Blake</a>
 </div>
-
 </header>
 
 <nav>
@@ -231,21 +213,17 @@ For YOU.
 <a href="#issues">Issues</a>
 <a href="#gallery">Gallery</a>
 <a href="#video">Video</a>
+<a href="#follow">Follow Blake</a>
 <a href="#contact">Contact</a>
 </nav>
 
 <div class="container">
 
 <div class="section" id="about">
-
 <h2>About Blake</h2>
-
 <div class="about-grid">
-
 <img src="5092.jpg" alt="Blake Smith">
-
 <div>
-
 <p>
 Blake Smith is running for Waterloo City Council in Ward 4
 to do more then just sit in on a council. He's ready to fight
@@ -253,7 +231,6 @@ for the East Side and the general Waterloo Community. He
 believes in fixing roads, fixing taxes, and fixing up a better
 future.
 </p>
-
 <p>
 With his parents divorcing, Blake grew up on both
 the East and West Sides of Waterloo. He attended
@@ -262,89 +239,65 @@ West Side schools while living on both sides of the city.
 compared to the West, and I want to do something about it.
 The East Side deserves better."
 </p>
-
 <p>
 Today, Blake lives on the East Side and believes
 the East should have leadership that fights for
 its neighborhoods, roads, businesses, recreation,
 and future.
 </p>
-
 <p>
 Blake believes local government should work for
 the people, not for high taxes, wasteful spending,
 or one side of the city over another.
 </p>
-
 </div>
-
 </div>
-
 <div class="quote">
-
 "The East Side deserves more, and I'm gonna work to give them this. We deserve good roads, good recreation, and good tax rates. Why? Because we are a big part of Waterloo who should not be ignored.”
-
 </div>
-
 </div>
 
 <div class="section" id="issues">
-
 <h2>Key Issues</h2>
-
 <div class="issue-grid">
-
 <div class="issue">
 <h3>Lower Taxes</h3>
-
 <p>
 Waterloo residents face some of the highest taxes
 in Iowa. Blake supports cutting wasteful spending,
 improving efficiency, and responsibly lowering the
 burden on taxpayers — especially property taxes.
 </p>
-
 </div>
-
 <div class="issue">
 <h3>Fix Roads Properly</h3>
-
 <p>
 Road repairs should last. Blake supports affordable,
 durable repair solutions instead of repeated temporary
 patches that fail on busy roads, along with repainting
 road lines and improving street safety.
 </p>
-
 </div>
-
 <div class="issue">
 <h3>Support the East Side</h3>
-
 <p>
 The East Side deserves equal attention and investment.
 Blake supports improving recreation, housing,
 beautification, business growth, and economic opportunity
 throughout Ward 4.
 </p>
-
 </div>
-
 <div class="issue">
 <h3>Community Investment</h3>
-
 <p>
 Blake opposes decisions that weaken East Side recreation
 and identity, including replacing Gate’s Pool with a
 cement splash pad rather than preserving a stronger
 community destination for families.
 </p>
-
 </div>
-    
 <div class="issue">
-<h3> Freedom of Speech</h3>
-    
+<h3>Freedom of Speech</h3>
 <p>
 Did you know the City Council is considering getting rid of public
 comments at city council meetings? Blake believes the people should
@@ -352,75 +305,56 @@ be able to openly and easily critique poor decision making and
 make recommendations without having to take extra steps to have their
 voices heard.
 </p>
-
-
 </div>
-
 </div>
-
 </div>
 
 <div class="section" id="gallery">
-
 <h2>Campaign Gallery</h2>
-
 <div class="gallery">
-
 <img src="img_6_1770149157510.jpg" alt="Blake Smith Campaign">
-
 <img src="IMG_20260521_082858.jpg" alt="Blake Smith Outdoor Photo">
-
 </div>
-
 </div>
 
 <div class="section" id="video">
-
 <h2>Blake Pushing for Responsible Spending</h2>
-
 <div class="video-container">
-
 <iframe
 src="https://www.youtube.com/embed/PNvLzW5jweY?start=6687"
 title="Blake Pushing for Responsible Spending"
 frameborder="0"
 allowfullscreen>
 </iframe>
-
+</div>
 </div>
 
+<!-- New Follow Blake Section -->
+<div class="section" id="follow">
+<h2>Follow Blake</h2>
+<div class="social-buttons">
+    <a href="https://www.facebook.com/profile.php?id=61590429476668" target="_blank">
+        <i class="fab fa-facebook-f"></i> Facebook
+    </a>
+    <a href="https://www.instagram.com/blake.smithofficial/" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://x.com/Blakesmith4you" target="_blank">
+        <i class="fab fa-x-twitter"></i> X / Twitter
+    </a>
+</div>
 </div>
 
+<!-- Updated Contact Section (Email only) -->
 <div class="section" id="contact">
-
 <h2>Contact Blake</h2>
-
-<p>Email: blakesmith4you@gmail.com</p>
-
-<div style="margin-top: 25px;">
-
-<a class="button"
-href="https://www.facebook.com/profile.php?id=61590429476668"
-target="_blank">
-Facebook
-</a>
-
-<a class="button"
-href="https://www.instagram.com/blake.smithofficial/"
-target="_blank">
-Instagram
-</a>
-
-</div>
-
+<p><strong>Email:</strong> <a href="mailto:blakesmith4you@gmail.com">blakesmith4you@gmail.com</a></p>
 </div>
 
 </div>
 
 <footer>
-
 © 2026 Blake Smith for Waterloo City Council — Ward 4
-
 </footer>
 
 </body>
