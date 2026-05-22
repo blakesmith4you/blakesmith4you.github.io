@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,7 +24,7 @@ header {
     height: 100vh;
     background:
         linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-        url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1974");
+        url("IMG_20260521_082858.jpg");
     background-size: cover;
     background-position: center;
 
@@ -51,7 +52,7 @@ header {
 }
 
 .slogan {
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 1.5;
     margin-bottom: 40px;
     font-weight: bold;
@@ -66,6 +67,7 @@ header {
     margin: 10px;
     display: inline-block;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .button:hover {
@@ -106,6 +108,7 @@ nav a {
 h2 {
     color: #0d5cab;
     margin-top: 0;
+    font-size: 2rem;
 }
 
 .about-grid {
@@ -136,6 +139,29 @@ h2 {
 
 .issue h3 {
     margin-top: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+}
+
+.quote {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    background: #eef4fb;
+    padding: 30px;
+    border-left: 6px solid #0d5cab;
+    border-radius: 10px;
+    margin-top: 30px;
 }
 
 .video-container {
@@ -203,6 +229,7 @@ For YOU.
 <nav>
 <a href="#about">About</a>
 <a href="#issues">Issues</a>
+<a href="#gallery">Gallery</a>
 <a href="#video">Video</a>
 <a href="#contact">Contact</a>
 </nav>
@@ -215,34 +242,45 @@ For YOU.
 
 <div class="about-grid">
 
-<img src="YOURPHOTO.jpg" alt="Blake Smith">
+<img src="5092.jpg" alt="Blake Smith">
 
 <div>
 
 <p>
 Blake Smith is running for Waterloo City Council in Ward 4
-because every part of Waterloo deserves attention, investment,
-and representation.
+because every part of Waterloo deserves attention,
+investment, and representation.
 </p>
 
 <p>
-Having grown up on both the East and West Sides of Waterloo,
-Blake has personally seen the unequal quality and investment
-between the two sides of the city.
+Because his parents divorced, Blake grew up on both
+the East and West Sides of Waterloo. He attended
+West Side schools while living experiences connected
+to both parts of the city.
 </p>
 
 <p>
-Today, Blake lives on the East Side and believes the East Side
-deserves leadership that fights for its neighborhoods, roads,
-businesses, recreation, and future.
+Today, Blake lives on the East Side and believes
+the East Side deserves leadership that fights for
+its neighborhoods, roads, businesses, recreation,
+and future.
 </p>
 
 <p>
-This campaign is built around one idea:
-not running for politics — running for YOU.
+Blake believes local government should work for
+the people — not political comfort, wasteful spending,
+or one side of the city over another.
 </p>
 
 </div>
+
+</div>
+
+<div class="quote">
+
+“The East Side deserves equal attention, equal investment,
+and equal opportunity. I’m not running for politics.
+I’m running for YOU.”
 
 </div>
 
@@ -258,11 +296,12 @@ not running for politics — running for YOU.
 <h3>Lower Taxes</h3>
 
 <p>
-Waterloo residents face some of the highest taxes in Iowa.
-Blake supports cutting wasteful spending, improving efficiency,
-and responsibly lowering the burden on taxpayers,
-especially property taxes.
+Waterloo residents face some of the highest taxes
+in Iowa. Blake supports cutting wasteful spending,
+improving efficiency, and responsibly lowering the
+burden on taxpayers — especially property taxes.
 </p>
+
 </div>
 
 <div class="issue">
@@ -270,9 +309,11 @@ especially property taxes.
 
 <p>
 Road repairs should last. Blake supports affordable,
-durable repair solutions instead of repeated temporary fixes,
-along with repainting faded road lines and improving safety.
+durable repair solutions instead of repeated temporary
+patches that fail on busy roads, along with repainting
+road lines and improving street safety.
 </p>
+
 </div>
 
 <div class="issue">
@@ -280,9 +321,11 @@ along with repainting faded road lines and improving safety.
 
 <p>
 The East Side deserves equal attention and investment.
-Blake supports improving parks, recreation, housing,
-beautification, and economic opportunity throughout Ward 4.
+Blake supports improving recreation, housing,
+beautification, business growth, and economic opportunity
+throughout Ward 4.
 </p>
+
 </div>
 
 <div class="issue">
@@ -290,11 +333,26 @@ beautification, and economic opportunity throughout Ward 4.
 
 <p>
 Blake opposes decisions that weaken East Side recreation
-and identity, including choices like replacing Gate's Pool
-with a cement splash pad instead of preserving a stronger
-community attraction.
+and identity, including replacing Gate’s Pool with a
+cement splash pad rather than preserving a stronger
+community destination for families.
 </p>
+
 </div>
+
+</div>
+
+</div>
+
+<div class="section" id="gallery">
+
+<h2>Campaign Gallery</h2>
+
+<div class="gallery">
+
+<img src="img_6_1770149157510.jpg" alt="Blake Smith Campaign">
+
+<img src="IMG_20260521_082858.jpg" alt="Blake Smith Outdoor Photo">
 
 </div>
 
@@ -319,12 +377,12 @@ allowfullscreen>
 
 <div class="section" id="contact">
 
-<h2>Contact</h2>
+<h2>Contact the Campaign</h2>
 
 <p>Email: youremail@example.com</p>
 
 <a class="button" href="mailto:youremail@example.com">
-Contact the Campaign
+Email the Campaign
 </a>
 
 </div>
